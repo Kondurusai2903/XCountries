@@ -52,6 +52,7 @@ const Country = () => {
           countryname={data.name.common}
           imageSrc={data.flags.png}
           imageAlt={data.flags.alt}
+          key={ind}
         />
       ))}
     </div>
