@@ -39,7 +39,7 @@ const Country = () => {
   useEffect(() => {
     res();
   }, []);
-  console.log(apidata);
+  // console.log(apidata);
   return (
     <div
       style={{
